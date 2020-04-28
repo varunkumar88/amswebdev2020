@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header>div{
+
+  padding: 0  25px;
+display:flex;
+justify-content:space-between;
+align-items: center;
+border-bottom:1px solid lightgray;
+
+}
+nav {
+  width: 600px;
+}
+
+nav ul {
+list-style:none;
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+nav a {
+
+  text-decoration:none;
+  color:black;
+
+}
+
+
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  
+
+}
+.logo{
+  width:100px;
+  
+
+}
+.search
+
+{width:15px;
+  margin:10px;
+ 
+}
+.search-button{
+background-color: #fb3e44;
+color:white;
+letter-spacing: 1px;
+width:100px;
+height:30px;
+margin: 5px;
+border:1px solid #d1cfcf;
+}
+
+.join{
+
+  color:black;
+  letter-spacing: 1px;
+  width:100px;
+  height:20px;
+  padding:10px;
+  text-decoration:none;
+margin:10px;
+border:1px solid #d1cfcf;
+text-align:center;
+
+}
+
+.login{
+  color:black;
+  letter-spacing: 1px;
+  width:100px;
+  height:20px;
+  padding:10px;
+  text-decoration:none;
+margin:10px;
+text-align:center;
+
+}
+
+.searchbox{
+position:left;
+padding-left: 30px;
+width: 800px;
+height:30px;
+background-color:rgb(235,230,230);
+padding-left: 4em;
+
+}
+
+/*section one*/
+
+#section1{
+
+  background-color:rgba(232,217,217,.3);
+text-align:center;
+height:600px;
+display:flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.section1-box1{
+font-size:50px;
+font-weight:bolder;
+margin:0.5px;
+
+}
+
+.section1-box2{
+display:block;
+text-align:center;
+width:400px;
+
+}
+
+#see-plans{
+border:0px solid;
+box-shadow:8px 8px 0 rgba(251,59,73,.2);
+background-color:#fb3b49;
+color:white;
+margin:20px;
+font-weight:bold;
+
+
+}
+
+#join-free{
+border:0px solid;
+margin:20px;
+text-decoration:none;
+font-weight:bold;
+
+}
+#plans{
+
+  width:800px;
+
+}
+
+/*   section two */
+
+#section2{
+
+  text-align:center;
+  height:600px;
+  margin:0px;
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  
+}
+
+.hexagon{
+  margin-top:4rem;
+  margin-bottom:4rem;
+  height:150px;
+}
+
+#section2 h3{
+  background-color:rgba(255,204,53,.4);
+  font-style: italic;
+  margin-top: 3rem;
+transform:skew(9deg,0deg);
+margin:0px;
+width:900px;
+}
+#section2 p{
+
+  margin:1rem 0px;
+  width:700px;
+}
+
+/*section 3 */
+
+#section3 img{
+
+  height:20px;
+  width:20px;
+}
+#section3{
+
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section3-box{
+
+  display:flex;
+flex-direction: row;
+justify-content: center;
+
+width: 1200px;
+height:250px;
+
+}
+
+
+
+.section3-box div{
+
+  border:3px solid #fb3b49;
+padding-left: 10px;
+
+}
+
+.section3-box h3{
+
+  color:red;
+  border:2px solid brown;
+
+  width:200px;
+}
+
+
+
+#org-button{
+box-shadow:8px 8px 0 rgba(128,83,35,.2);
+color:white;
+background-color: black;
+
+margin:50px;
+font-weight: bold;
+width:300px;
+height:40px;
+}
+
+
